@@ -1,0 +1,49 @@
+/* This is a comment in CSS */
+
+/* Target the header element and modify its background color and text alignment */
+header {
+	background-color: #333;
+	text-align: center;
+}
+
+/* Target the h1 element within the header and modify its text color, font size, and margin */
+header h1 {
+	color: white;
+	font-size: 32px;
+	margin: 20px 0;
+}
+
+/* Target the section element and modify its padding and font family */
+section {
+	padding: 20px;
+	font-family: Arial, sans-serif;
+}
+/* Target the layer and modify its background color, padding, and box-shadow */
+.layer {
+	background-color: #f9f9f9;
+	padding: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: box-shadow 0.3s ease-in-out;
+}
+
+/* When hovering over the layer, increase the box-shadow for a hover effect */
+.layer:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Target the text within a paragraph and transform it to uppercase */
+.uppercase {
+	text-transform: uppercase;
+}
+
+/* Target a specific row within the table and modify its background color and text color */
+table tbody tr:nth-child(2) {
+	background-color: #f2f2f2;
+	color: #333;
+}
+
+/* Target a specific cell within the table and modify its background color and text color */
+table tbody tr:nth-child(3) td:nth-child(2) {
+	background-color: #ffc107;
+	color: white;
+}
